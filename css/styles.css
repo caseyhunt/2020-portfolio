@@ -10025,7 +10025,13 @@ p {
   font-style: italic;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
+  margin-top:4rem !important;
 }
+
+.page-section h2.section-subheading {
+  margin-top: 4rem;
+}
+
 
 @media (min-width: 768px) {
   section {

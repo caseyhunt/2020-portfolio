@@ -1,0 +1,9 @@
+{
+  "projects":[
+    {"name": "project 1", "category": [], "abstract": "abstract", "description": "description", "mainimg": "img.jpg", "images": ["img1.jpg", "img2.jpg"]},
+    {"name": "project 2", "category": [], "abstract": "abstract", "description": "description", "mainimg": "img.jpg", "images": ["img1.jpg", "img2.jpg"]}
+  ]
+
+
+
+}

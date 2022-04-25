@@ -1,13 +1,20 @@
-#grid{
+/* #grid{
   display: grid;
   grid-template-columns: 1fr 4fr;
   margin-left:22vw;
   margin-top:100px;
   margin-right:27vw;
   column-gap:30px;
+} */
+
+.row{
+  display:flex;
 }
 
-
+.row.project:hover{
+  background-color: #FEFAEE;
+  cursor: pointer;
+}
 
 #headshot{
   width:13vw;

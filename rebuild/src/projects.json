@@ -1,7 +1,62 @@
 {
   "projects":[
-    {"name": "project 1", "category": [], "abstract": "abstract", "description": "description", "mainimg": "img.jpg", "images": ["img1.jpg", "img2.jpg"]},
-    {"name": "project 2", "category": [], "abstract": "abstract", "description": "description", "mainimg": "img.jpg", "images": ["img1.jpg", "img2.jpg"]}
+    {"name": "Together Apart",
+      "subdomain": "together_apart",
+      "category": [],"subtitle":"Co-Designing A Robot Interface for Remote Co-Design",
+      "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eleifend nibh, sit amet vestibulum neque luctus sed. Duis sit amet lectus mattis, rhoncus dui venenatis, luctus libero. Donec erat turpis, iaculis sit amet pretium ornare, ultrices molestie lorem. Vestibulum a pellentesque libero, et lacinia mauris. Morbi elit nisl, pharetra ac ante in, faucibus consectetur elit. Donec ut eros nunc. Nullam quis felis id diam eleifend auctor sit amet vitae dui.",
+      "description": "description",
+      "mainimg": "tapart.jpg",
+      "images": ["placeholder.jpg","placeholder.jpg","placeholder.jpg"]},
+
+    {"name": "Presence Mat",
+      "subdomain": "presence_mat",
+      "category": [],"subtitle":"Low-Cost Room-Scale Radar for the Home with Off The Shelf Hardware",
+      "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eleifend nibh, sit amet vestibulum neque luctus sed. Duis sit amet lectus mattis, rhoncus dui venenatis, luctus libero. Donec erat turpis, iaculis sit amet pretium ornare, ultrices molestie lorem. Vestibulum a pellentesque libero, et lacinia mauris. Morbi elit nisl, pharetra ac ante in, faucibus consectetur elit. Donec ut eros nunc. Nullam quis felis id diam eleifend auctor sit amet vitae dui.",
+      "description": "description",
+      "mainimg": "mat.jpg",
+      "images": ["placeholder.jpg","placeholder.jpg","placeholder.jpg"]},
+
+    {"name": "Cyber Garden",
+      "subdomain": "cyber_garden",
+      "category": [],"subtitle":"Ambient Community Wellness Display ",
+      "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eleifend nibh, sit amet vestibulum neque luctus sed. Duis sit amet lectus mattis, rhoncus dui venenatis, luctus libero. Donec erat turpis, iaculis sit amet pretium ornare, ultrices molestie lorem. Vestibulum a pellentesque libero, et lacinia mauris. Morbi elit nisl, pharetra ac ante in, faucibus consectetur elit. Donec ut eros nunc. Nullam quis felis id diam eleifend auctor sit amet vitae dui.",
+      "description": "description",
+      "mainimg": "cgarden.jpeg",
+      "images": ["placeholder.jpg","placeholder.jpg","placeholder.jpg"]},
+
+    {"name": "Scent Bots",
+      "subdomain": "scent_bots",
+      "category": [],"subtitle":"Automatic Roving Scents for Ambient Telepresence using Object Recognition",
+      "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eleifend nibh, sit amet vestibulum neque luctus sed. Duis sit amet lectus mattis, rhoncus dui venenatis, luctus libero. Donec erat turpis, iaculis sit amet pretium ornare, ultrices molestie lorem. Vestibulum a pellentesque libero, et lacinia mauris. Morbi elit nisl, pharetra ac ante in, faucibus consectetur elit. Donec ut eros nunc. Nullam quis felis id diam eleifend auctor sit amet vitae dui.",
+      "description": "description",
+      "mainimg": "sbots.jpg",
+      "images": ["placeholder.jpg","placeholder.jpg","placeholder.jpg"]},
+
+    {"name": "DOT",
+      "subdomain": "dot",
+      "category": [],
+      "subtitle":"Device for Spontaneous Object Based Telepresence",
+      "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eleifend nibh, sit amet vestibulum neque luctus sed. Duis sit amet lectus mattis, rhoncus dui venenatis, luctus libero. Donec erat turpis, iaculis sit amet pretium ornare, ultrices molestie lorem. Vestibulum a pellentesque libero, et lacinia mauris. Morbi elit nisl, pharetra ac ante in, faucibus consectetur elit. Donec ut eros nunc. Nullam quis felis id diam eleifend auctor sit amet vitae dui.",
+      "description": "description",
+      "mainimg": "dot.jpg",
+      "images": ["placeholder.jpg","placeholder.jpg","placeholder.jpg"]},
+
+    {"name": "VTTV",
+      "subdomain": "vttv",
+      "category": [],
+      "subtitle":"Vibrotactile Tongue Display",
+      "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eleifend nibh, sit amet vestibulum neque luctus sed. Duis sit amet lectus mattis, rhoncus dui venenatis, luctus libero. Donec erat turpis, iaculis sit amet pretium ornare, ultrices molestie lorem. Vestibulum a pellentesque libero, et lacinia mauris. Morbi elit nisl, pharetra ac ante in, faucibus consectetur elit. Donec ut eros nunc. Nullam quis felis id diam eleifend auctor sit amet vitae dui.",
+      "description": "description",
+      "mainimg": "vttv.jpeg",
+      "images": ["placeholder.jpg","placeholder.jpg","placeholder.jpg"]},
+
+    {"name": "Everything Instrument",
+      "subdomain": "everything_instrument",
+       "category": [],"subtitle":"Turn Anything Into an Instrument",
+       "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eleifend nibh, sit amet vestibulum neque luctus sed. Duis sit amet lectus mattis, rhoncus dui venenatis, luctus libero. Donec erat turpis, iaculis sit amet pretium ornare, ultrices molestie lorem. Vestibulum a pellentesque libero, et lacinia mauris. Morbi elit nisl, pharetra ac ante in, faucibus consectetur elit. Donec ut eros nunc. Nullam quis felis id diam eleifend auctor sit amet vitae dui.",
+       "description": "description",
+       "mainimg": "ei.jpeg",
+       "images": ["placeholder.jpg","placeholder.jpg","placeholder.jpg"]}
   ]
 
 

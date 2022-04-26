@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Casey Hunt</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a> -->
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Featured Work</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">What I Do</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#teaching">Teaching</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Who I Am</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Connect</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Casey is a</div>
+                <div class="masthead-heading text-uppercase">Pro-Social Interaction Designer and Researcher</div>
+                <script src="/js/sketch.js"></script>
+                <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
+            </div>
+        </header>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Featured Work</h2>
+                    <!-- <h3 class="section-subheading text-muted">Interested in my research? Download my CV</h3> -->
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><h3>more info</h3></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/intimacy-chat1.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Intimacy Chat</div>
+                                <div class="portfolio-caption-subheading text-muted">Web Experience</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><h3>more info</h3></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/woven-thermocouple.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Soft Thermocouple</div>
+                                <div class="portfolio-caption-subheading text-muted">eTextiles Research</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><h3>more info</h3></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/feedback-loop3.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Feedback Loop</div>
+                                <div class="portfolio-caption-subheading text-muted">Web Experience</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><h3>more info</h3></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/rfid.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">UHF RFID</div>
+                                <div class="portfolio-caption-subheading text-muted">Research Exporation</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><h3>more info</h3></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/brain-break1.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Brain Break</div>
+                                <div class="portfolio-caption-subheading text-muted">Browser Extension</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><h3>more info</h3></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/hold-heart.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Hold My Heart</div>
+                                <div class="portfolio-caption-subheading text-muted">Biometric Art</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <!-- <h2 class="section-heading text-uppercase">What I do...and don't</h2> -->
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-archway fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Knowledge</h4>
+                        <p class="text-muted">I am a skilled programmer in <a href="#about">many languages</a> and I focus most of my time on creative code. I have spent a lot of my time building ubiquitous sensing prototypes, especially <a data-toggle="modal" href="#portfolioModal2">soft sensors</a> and <a data-toggle="modal" href="#portfolioModal4">radio</a>.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-seedling fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Goals</h4>
+                        <p class="text-muted">I have experience in <a href="https://www.youtube.com/watch?v=qB7Lg8KKlNI&list=PLN6GPcBSjjBz--R5JzknIZakF9wxNw5w0&index=2&ab_channel=CaseyHunt" target="_blank">VR</a>, <a data-toggle="modal" href="#portfolioModal1">networking</a>, and <a data-toggle="modal" href="#portfolioModal3">physical computing</a> but I still have a lot to learn. I am especially interested in design research focused on the way that the underlying structure of emerging systems shapes human behavior.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-users fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Collaborations</h4>
+                        <p class="text-muted">I work with amazing people who create <a target="_blank" href="https://www.colorado.edu/atlas/thing-lab">haptic interfaces</a>, <a data-toggle="modal" href="#portfolioModal6">performance pieces</a>, and <a target="_blank" href="https://www.colorado.edu/atlas/labscenters/whaaat-lab">games</a>. I love offering support to their projects, but I am not an expert in these domains.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teaching-->
+        <section class="page-section bg-light" id="teaching">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Teaching</h2>
+                    <!-- <h3 class="section-subheading text-muted">Interested in my research? Download my CV</h3> -->
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><h3>more info</h3></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/atlas.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">ATLAS Institute</div>
+                                <div class="portfolio-caption-subheading text-muted">Hybrid Instruction</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><h3>more info</h3></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/maker-tech1.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">CU Science Discovery</div>
+                                <div class="portfolio-caption-subheading text-muted">Synchronous Remote Instruction</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><h3>more info</h3></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/art+code.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Hackaday.io</div>
+                                <div class="portfolio-caption-subheading text-muted">Pre-Recorded Video Instruction</div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+            <h2 class="section-subheading text-muted">More interested in my research?</h2>
+            <a download href="assets\Casey_2020CV.pdf">
+            <button class="btn btn-primary portfolio-button"  type="button">
+              <i class="fas fa-download"></i>
+              &nbsp;
+              Download My CV
+            </button>
+          </a>
+          </div>
+        </section>
+        <section class="page-section" id="about">
+          <div class="container">
+              <div class="text-center">
+                  <!-- <h2 class="section-heading text-uppercase">Who I Am</h2> -->
+                  <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+              </div>
+              <div class="row justify-content-center">
+                <div class="">
+
+                    </div>
+                  </div>
+                  <div class="row justify-content-center">
+                    <div class="col-lg-3 col-sm-6 col-xs-12 text-center team-member">
+                        <img class="mx-auto rounded-circle " src="assets/img/casey.jpg" alt="" />
+                    </div>
+                      <div class="col-lg-7 col-sm-7" >
+                          <h4>Casey Hunt</h4>
+                          <p class="text-muted">BS Biological Chemistry, University of Utah (2015)</br>
+                          MS Creative Technologies and Design, CU Boulder (planned 2021)</p>
+                          <p class="large text-muted">I like to take on projects that scare me, with a team I can trust. I ask lots of questions, and I am always looking to learn something new. I am a big fan of math Youtube and I often code while watching Grey's Anatomy or Steven Universe. I also love to make  <a target="_blank" href="https://instagram.com/_caseyhunt_">art</a> in my spare time.</p>
+                          <p class="large text-muted">As a pro-social interaction designer, inclusivity is a cornerstone of my work. To that end, I strive to amplify marginalized voices and perspectives at every step of the design process. I only take on projects that I believe leave a positive and lasting impact our global community.</p>
+                      </div>
+                    </div>
+
+          </div>
+
+        </section>
+        <!-- Code-->
+        <section class="page-section bg-light" id="code">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-md-10 col-sm-10">
+                      <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/code.png" alt="" /></a>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Let's Connect!</h2>
+                </div>
+
+                  <div class="col my-3 my-lg-0 text-center">
+                  <a class="btn btn-light btn-social mx-2" target="_blank" href="https://www.instagram.com/_caseyhunt_/"><i class="fab fa-instagram"></i></a>
+                  <a class="btn btn-light btn-social mx-2" target="_blank" href="https://github.com/caseyhunt"><i class="fab fa-github"></i></a>
+                  <a class="btn btn-light btn-social mx-2" target="_blank" href="https://www.linkedin.com/in/casey-hunt-00477b156/"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn btn-light btn-social mx-2" href="mailto: casey.l.hunt@gmail.com"><i class="far fa-envelope"></i></a>
+                  </div>
+
+
+            </div>
+        </section>
+        <!-- Footer-->
+      <!-- <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
+                     <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer> -->
+
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><i class="fas fa-times fa-2x"></i></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Intimacy Chat</h2>
+
+
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/intimacy-chat.gif" alt="" />
+                                    <ul class="list-inline"><p><strong>
+                                        <li>Date: September 2020</li>
+                                        <li>Role: Full Stack Developer</li>
+                                        <li>Tools: Node.js, WebRTC, Socket.io, Bootstrap</li>
+
+                                        <li>Team: Livia Foldes (Art Direction and UX Design)</li>
+
+                                    </ul></p></strong>
+                                    <p>Intimacy Chat is an art piece and online experience that overlays the video of two participants in a real time video call. This unique interaction, combined with textual prompts mirrored to both users, asks participants to probe the tactle and emotional experience of remote communication. Livia and I were especially interested in the social dynamics of video calls, and wanted to explore how changes to the structure of the UI might change the structure of a conversation. Video calling platforms have seen little variation since the speculative designs for remote communication proposed in the early 20th century. We call on participants to assess the way this structure is taken for granted and expore new ways of building intimate relationships online.</p>
+                                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/intimacy-chat2.png" alt="" />
+                                  <div class="justify-content-center text-center ">
+                                    <button class="btn btn-primary portfolio-button" target="_blank" href="https://github.com/caseyhunt/protocol_proj/" type="button">
+                                        <i class="fab fa-github"></i>
+                                        &nbsp;
+                                        Github Repo
+                                    </button>
+                                    <button class="btn btn-primary portfolio-button" target="_blank" href="https://blooming-waters-99675.herokuapp.com/" type="button">
+                                        Experience It
+                                    </button>
+                                    <button class="btn btn-primary portfolio-button" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times"></i>
+                                        &nbsp;
+                                        Close Project
+                                    </button>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal"><i class="fas fa-times fa-2x"></i></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                              <div class="modal-body">
+                                  <!-- Project Details Go Here-->
+                                  <h2 class="text-uppercase">Soft Thermocouple</h2>
+
+
+                                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/woven-thermocouple1.jpg" alt="" />
+                                  <ul class="list-inline"><p><strong>
+                                      <li>Date: Ongoing</li>
+                                      <li>Role: Independent Researcher</li>
+                                      <li>Tools: Weaving, Embroidery, eTextiles Design, Arduino</li>
+
+                                  </ul></p></strong>
+                                  <p>I am currently researching a soft thermocouple for a variety of applications, especially as an alert system for extreme temperature exposure. As far as I am aware, I am the first to integrate thermocouple circuitry into a wearable system. I am currently working to optimize this system for high sensitivity readings and integrating it into a wearable computer system. I have published weekly research notes on this ongoing project on my <a target="_blank" href="https://casey-l-hunt.medium.com/">Medium</a>, so check there for more in-depth information on my progress.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/soft-thermocouple2.png" alt="" />
+                                <div class="justify-content-center text-center ">
+                                  <button class="btn btn-primary portfolio-button" target="_blank" href="https://casey-l-hunt.medium.com/" type="button">
+                                      <i class="fab fa-medium"></i>
+                                      &nbsp;
+                                      Read more on Medium
+                                  </button>
+                                  <button class="btn btn-primary portfolio-button" data-dismiss="modal" type="button">
+                                      <i class="fas fa-times"></i>
+                                      &nbsp;
+                                      Close Project
+                                  </button>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal"><i class="fas fa-times fa-2x"></i></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                              <div class="modal-body">
+                                  <!-- Project Details Go Here-->
+                                  <h2 class="text-uppercase">Feedback Loop</h2>
+
+
+
+                                  <iframe class="d-block mx-auto" width="680" height="435" src="https://www.youtube.com/embed/As-i1mF8MV8" frameborder="0" style="max-width:100%" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                  <ul class="list-inline"><p><strong>
+                                      <li>Date: April 2020</li>
+                                      <li>Role: Back-End/Arduino Developer</li>
+                                      <li>Tools: Socket.io, Node.js, C++, Raspberry Pie, Arduino</li>
+                                      <li>Team: Anna E. Cook (UX Design), John Williams (Fabricator and Web Developer), Amanda Barrell (Art Direction)</li>
+                                  </ul></p></strong>
+                                  <p>Feedback Loop is an experience designed to give participants a sense of control over their lived experiences. The project takes the therapeutic practice of self-directed letters written to a future or former self and creates an accessible, live experience for people to experience globally from the comfort of their own home. The project was originally designed as a large-scale installation piece but, due to coronavirus shutdowns, the experience was adapted to an online one.</p>
+                                  <p>My role in this project was to recreate our project live online, through a Raspberry Pi server connected to the Arduino managing the servo motors and LED lights. Users on the website were able to see their inputs to our form change the installation live over the web through a webcam stream. I was also lucky enough to play host to the installation in my living room for the duration of the limited run.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/feedback-loop.png" alt="" />
+                                <div class="justify-content-center text-center ">
+                                  <button class="btn btn-primary portfolio-button" target="_blank" href="https://github.com/caseyhunt/FeedbackLoop" type="button">
+                                      <i class="fab fa-github"></i>
+                                      &nbsp;
+                                      Github Repo
+                                  </button>
+                                  <button class="btn btn-primary portfolio-button" target="_blank" href="https://casey-l-hunt.medium.com/the-art-of-immersive-computing-in-covid-19-c9005e928b04" type="button">
+                                      <i class="fab fa-medium"></i>
+                                      &nbsp;
+                                      Read more on Medium
+                                  </button>
+
+                                  <button class="btn btn-primary portfolio-button" target="_blank" data-dismiss="modal" type="button">
+                                      <i class="fas fa-times"></i>
+                                      &nbsp;
+                                      Close Project
+                                  </button>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal"><i class="fas fa-times fa-2x"></i></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                              <div class="modal-body">
+                                  <!-- Project Details Go Here-->
+                                  <h2 class="text-uppercase">UHF RFID Research</h2>
+
+
+                                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/uhf-rfid2.jpg" alt="" />
+                                  <ul class="list-inline"><p><strong>
+                                      <li>Date: December 2020</li>
+                                      <li>Role: Independent Researcher</li>
+                                      <li>Tools: Passive UHF RFID</li>
+
+                                  </ul></p></strong>
+                                  <p>I spent two months compiling a review of research on passive RFID in HCI applications. I was specifically interested in UHF RFID because I spent this period building a UHF RFID system for verifying the results of previous UHF RFID research around the correlation between the position and rotation of a tag in relation to the transiever and their relative signal strength indicators (RSSI).</p>
+                                  <p>I believe that LIDAR is extremely compelling for ubiquitous sensing solutions in consumer applications. However, LIDAR is limited to measuring objects in view of a LIDAR detector on a VR headset or mobile device. I am interested in continuing my work with radio signals, especially passive UHF RFID, to solve the problems that LIDAR cannot. I am especially interested in the low environmental cost of passive UHF RFID tags as ubiquitous sensing interface.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/uhf-rfid1.jpg" alt="" />
+                                <div class="justify-content-center text-center">
+                                  <button class="btn btn-primary portfolio-button" target="_blank" href="https://drive.google.com/file/d/1Mo35wH85ilnU1hPDreRFIK4eTcXEyFEI/view" type="button">
+                                      <i class="fab fa-google-drive"></i>
+                                      &nbsp;
+                                      Read the Paper
+                                  </button>
+                                  <button class="btn btn-primary portfolio-button" data-dismiss="modal" type="button">
+                                      <i class="fas fa-times"></i>
+                                      &nbsp;
+                                      Close Project
+                                  </button>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal"><i class="fas fa-times fa-2x"></i></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                              <div class="modal-body">
+                                  <!-- Project Details Go Here-->
+                                  <h2 class="text-uppercase">Brain Break</h2>
+
+
+                                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/brain-break.png" alt="" />
+                                  <ul class="list-inline"><p><strong>
+                                      <li>Date: February 2020</li>
+                                      <li>Role: Developer</li>
+                                      <li>Tools: JavaScript</li>
+                                      <li>Team: Juliet Luna (Web Design/Illustration), Liza Tolkin (Project Manager), Fiona Bell (Graphic Design), Emma Peterson (JS Developer), Corbin Peters (JS Developer)</li>
+
+                                  </ul></p></strong>
+                                  <i>  <p>This project was created for the 2020 T9 Hacks 24 hour hackathon at CU Boulder where Brain Break was awarded "Best Educational Software" by a team of professional educators, developers, and designers.</p></i>
+                                  <p>Brain Break is a proposed suite of products meant to improve digital hygiene in elementary age children. The app, browser extension, and website all work together to create an easy interface for parents and kids to track their browsing and reflect on whether they are making healthy decisions in their time spent online. The app and browser extension also lock children out of their digital activities after a time-limit set by the parent. Children are allowed to complete guided enrichment activities and games duing the parent-set browsing lockout period, and can earn more time by completing healthy tasks!</p>
+
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/brain-break2.jpg" alt="" />
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/brain-break3.jpg" alt="" />
+                                <div class="justify-content-center text-center ">
+                                  <button class="btn btn-primary portfolio-button" target="_blank" href="https://github.com/caseyhunt/t9-hax" type="button">
+                                      <i class="fab fa-github"></i>
+                                      &nbsp;
+                                      Github Repo
+                                  </button>
+                                  <button class="btn btn-primary portfolio-button" target="_blank" href="https://sites.google.com/colorado.edu/t9hacksbrainbreak/home?authuser=1" type="button">
+                                      <i class="fas fa-external-link-alt"></i>
+                                      &nbsp;
+                                      Website
+                                  </button>
+                                  <button class="btn btn-primary portfolio-button" data-dismiss="modal" type="button">
+                                      <i class="fas fa-times"></i>
+                                      &nbsp;
+                                      Close Project
+                                  </button>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal"><i class="fas fa-times fa-2x"></i></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                              <div class="modal-body">
+                                  <!-- Project Details Go Here-->
+                                  <h2 class="text-uppercase">Hold My Heart</h2>
+
+
+                                  <iframe src="https://player.vimeo.com/video/476895252" class="d-block mx-auto" style="max-width:100%" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                  <ul class="list-inline"><p><strong>
+                                      <li>Date: October 2020</li>
+                                      <li>Role: Developer</li>
+                                      <li>Tools: Arduino</li>
+                                      <li>Team: Holiday McAllister (Fabricator)</li>
+                                  </ul></p></strong>
+                                  <p>Hold My Heart is an open-source project for building a heart that beats in time with the user’s own pulse. Until now, biometric data in art has been limited to the gallery environment. The goal of this project was to make biometric art accessible and easy for anyone with a basic understanding of physical computing and fabrication. The finished project is an uncannily realistic beating heart in an assembly that can be held in the hand, and a deceptively simple process that any hobbyist can reproduce at home. The hope is that our initial fabrication process is only the beginning of this project. See our <a target="_blank" href="https://www.instructables.com/Realistic-Beating-Heart-With-Arduino/">Instructable</a> for information on how to create the prop at home.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/heartprocess.gif" alt="" />
+                                <div class="justify-content-center text-center ">
+                                  <button class="btn btn-primary portfolio-button" target="_blank" href="https://github.com/caseyhunt/heart" type="button">
+                                    <i class="fab fa-github"></i>
+                                    &nbsp;
+                                    Github Repo
+                                  </button>
+                                  <button class="btn btn-primary portfolio-button" target="_blank" href="https://github.com/caseyhunt/heart" type="button">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    &nbsp;
+                                    Instructables
+                                  </button>
+                                  <button class="btn btn-primary portfolio-button" data-dismiss="modal" type="button">
+                                      <i class="fas fa-times"></i>
+                                      &nbsp;
+                                      Close Project
+                                  </button>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- Teaching Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal"><i class="fas fa-times fa-2x"></i></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                              <div class="modal-body">
+                                  <!-- Project Details Go Here-->
+                                  <h2 class="text-uppercase">CU ATLAS Institute</h2>
+
+                                  <p class="modal-sub">Spring 2020</p>
+                                  <img class="teach-img d-block mx-auto" src="assets/img/portfolio/process1.png" alt="" />
+                                  <ul class="list-inline"><p><strong>
+                                      <li>ATLS 2002 - Design Tech: Process</li>
+                                      <li>Tools: Adobe Illustrator, Adobe Photoshop, Adobe InDesign, HTML/CSS</li>
+
+                                  </ul></p></strong>
+                                  <p>Process introduces students to foundational principles, practices and methods related to the process of creative design. Emphasis will be placed on the pre-production process as a creative problem-solving tools in order to produce innovative and interesting creative work. Through lectures, discussion and creative projects, students will gain a familiarity with diverse applications, methodologies, and practices related to creative technology and design. In this course, students will learn creative skills such as design thinking, empathy-based design, iteration, and design process, as well as technical skills involving UX/UI design, wireframing, web comps, moodboards, and more.</p>
+                                <div class="justify-content-center text-center ">
+                                  <button class="btn btn-primary portfolio-button" target="_blank" href="https://drive.google.com/drive/folders/1zIuvUAKlypeTpl74P_1fRdWgop3RAi2H?usp=sharing" type="button">
+                                    <i class="fab fa-google-drive"></i>
+                                    &nbsp;
+                                    Class Resources
+                                  </button>
+                                  <button class="btn btn-primary portfolio-button" data-dismiss="modal" type="button">
+                                      <i class="fas fa-times"></i>
+                                      &nbsp;
+                                      Close
+                                  </button>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- Teaching Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><i class="fas fa-times fa-2x"></i></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">CU Science Discovery</h2>
+                                <p class="modal-sub">Fall 2020</p>
+                                <!-- Class 1 -->
+                                <div class="modal-class">
+                                <img class="teach-img d-block mx-auto" src="assets/img/portfolio/digitalart.jpg" alt="" />
+                                <ul class="list-inline"><p><strong>
+                                    <li>Digital Art & Media Academy</li>
+                                    <li>Pre-College</li>
+                                    <li>Tools: Photopea, Figma, TinkerCad</li>
+                                </ul></p></strong>
+                                <p>This class will prepare students for college level classes in digital art and design. Each week we will explore a new tool for building professional level projects. Throughout the class, we will make a variety of projects like comic books, collages, application wireframes, and even 3D prints and models!  All tools are browser based, and free for students.</p>
+                              <div class="justify-content-center text-center ">
+                                <button class="btn btn-primary portfolio-button" target="_blank" href="https://sites.google.com/colorado.edu/digital-artmedia-nkjn/home" type="button">
+                                  <i class="fas fa-external-link-alt"></i>
+                                  &nbsp;
+                                  Class Website
+                                </button>
+                                <button class="btn btn-primary portfolio-button" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times"></i>
+                                    &nbsp;
+                                    Close
+                                </button>
+                              </div>
+                            </div>
+
+                                <p class="modal-sub">Summer 2020</p>
+                                <!-- Class 1 -->
+                                <div class="modal-class">
+                                <img class="teach-img d-block mx-auto" src="assets/img/portfolio/minecraft.png" alt="" />
+                                <ul class="list-inline"><p><strong>
+                                    <li>Minecraft Adventures</li>
+                                    <li>4th - 6th Grade</li>
+                                    <li>Tools: <a target="_blank" href="https://www.learntomod.com/"> Learn to Mod</a></li>
+                                </ul></p></strong>
+                                <p>Minecraft Adventures introduces students to basic principles of computer science through Minecraft Mod building with Learn to Mod, a drag and drop Java coding tool. Students learn to manage and their own servers and think about how to create mods that will help them complete their Minecraft goals. Popular activities include modding gear and procedurally building environments and structures.</p>
+                              <div class="justify-content-center text-center ">
+                                <button class="btn btn-primary portfolio-button" target="_blank" href="https://sites.google.com/colorado.edu/minecraftadventures/home" type="button">
+                                  <i class="fas fa-external-link-alt"></i>
+                                  &nbsp;
+                                  Class Website
+                                </button>
+                                <button class="btn btn-primary portfolio-button" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times"></i>
+                                    &nbsp;
+                                    Close
+                                </button>
+                              </div>
+                            </div>
+                              <!-- Class 2 -->
+                              <div class="modal-class">
+                              <img class="teach-img d-block mx-auto" src="assets/img/portfolio/maker-tech.png" alt="" />
+                              <ul class="list-inline"><p><strong>
+                                  <li>Engineering in the Maker Age STEM Academy</li>
+                                  <li>Pre-College</li>
+                                  <li>Co-Taught with Scott Sieke</li>
+                                  <li>Tools: Tinker Cad, Micro:Bit, p5.js</li>
+                              </ul></p></strong>
+                              <p>Engineering in the Maker Age is an Acadamy meant to prepare high school students for college level engineering curricula. Students are taught college level engineering concepts like circuit building, 3D design, computer science, and mechanical engineering though design challenges meant to reinforce their learning.</p>
+                            <div class="justify-content-center text-center ">
+                              <button class="btn btn-primary portfolio-button" target="_blank" href="https://sites.google.com/colorado.edu/makerage/home" type="button">
+                                <i class="fas fa-external-link-alt"></i>
+                                &nbsp;
+                                Class Website
+                              </button>
+                              <button class="btn btn-primary portfolio-button" data-dismiss="modal" type="button">
+                                  <i class="fas fa-times"></i>
+                                  &nbsp;
+                                  Close
+                              </button>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- Teaching Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><i class="fas fa-times fa-2x"></i></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Hackaday.io</h2>
+                                <p class="modal-sub">Fall 2020</p>
+                                <iframe class="d-block mx-auto" width="680" height="435" src="https://www.youtube.com/embed/XH_GcpnLFjM" frameborder="0" style="max-width:100%" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <ul class="list-inline"><p><strong>
+                                  <li>Art + Code</li>
+                                  <li>Professonal Independent Study</li>
+                                  <li>Tools: p5.js</li>
+                                </ul></p></strong>
+                                <p>In this four week course, students create in-depth art explorations with the P5.js library. This course takes place at the convergence between computer science and art theory, with most explorations centering around basic building blocks that artists can customize and configure to create novel work. Of special interest are trigonometry, recursion, generative color palettes, API calls, and loops.</p>
+                              <div class="justify-content-center text-center ">
+                                <button class="btn btn-primary portfolio-button" target="_blank" href="https://www.youtube.com/playlist?list=PL_tws4AXg7att6rxtRNsGa36fOoRtdKJV" type="button">
+                                  <i class="fab fa-youtube"></i>
+                                  &nbsp;
+                                  Class Playlist
+                                </button>
+                                <button class="btn btn-primary portfolio-button" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times"></i>
+                                    &nbsp;
+                                    Close
+                                </button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

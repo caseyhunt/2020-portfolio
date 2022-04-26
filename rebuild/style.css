@@ -20,3 +20,17 @@
   width:13vw;
   height:auto;
 }
+
+h1{
+  font-family:Lora;
+  font-weight:300;
+}
+
+h2{
+  font-family:Lora;
+  font-weight:300;
+}
+
+p{
+  font-family:Nunito;
+}

@@ -33,21 +33,28 @@ function findSubdomain(projects){
 
 function populatePage(project){
   console.log(project);
+
   for(i=0;i<((project.images.length)+1);i++){
+
     if(i==0){
-      document.getElementById("slideshow").innerHTML += '<div class="slide"><img src="../assets/proj/' + project.mainimg +'" id="" alt=""></div>';
+      document.getElementById("slideshow").innerHTML += '<div class="slide fade"><img src="../assets/proj/' + project.mainimg +'" id="" alt=""></div>';
     }else{
-      document.getElementById("slideshow").innerHTML += '<div class="slide"><img src="../assets/proj/' + project.images[i-1] + '" id="" alt=""></div>';
+      document.getElementById("slideshow").innerHTML += '<div class="slide fade"><img src="../assets/proj/' + project.images[i-1] + '" id="" alt=""></div>';
     }
   }
-  document.getElementById("slideshow").innerHTML +=   '<a class="prev" onclick="plusSlides(-1)">&#10094;</a><a class="next" onclick="plusSlides(1)">&#10095;</a>';
+  //adding dot container for slideshow
+document.getElementById("slideshow").innerHTML += '<div id="dotcont"></div>';
+for(i=0;i<((project.images.length)+1);i++){
+  document.getElementById('dotcont').innerHTML += '<span class="dot" onclick="currentSlide(' + (i+1) + ')"></span>';
+}
+  document.getElementById("slideshow").innerHTML +=   '<div id="arrows"><a class="prev" onclick="plusSlides(-1)">&#10094;</a><a class="next" onclick="plusSlides(1)">&#10095;</a></div>';
   document.querySelector("body").innerHTML += '<div id=""><p class="subtitle">' + project.description + '</p></div>';
   showSlides(slideIndex);
 }
 
 
 
-
+//slideshow modified from W3 tutorial
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -61,15 +68,15 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("slide");
-  // let dots = document.getElementsByClassName("dot");
+  let dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  // for (i = 0; i < dots.length; i++) {
-  //   dots[i].className = dots[i].className.replace(" active", "");
-  // }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
   slides[slideIndex-1].style.display = "block";
-  // dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].className += " active";
 }

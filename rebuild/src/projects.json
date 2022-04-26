@@ -12,7 +12,7 @@
 
     {"name": "Presence Mat",
       "subdomain": "presence_mat",
-      "category": ["embodied", "networked"],
+      "category": ["embodied"],
       "subtitle":"Low-Cost Room-Scale Radar for the Home with Off The Shelf Hardware",
       "collaborators": ["Collaborator 1", "Collaborator 2", "Collaborator 3", "Collaborator 4"],
       "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt eleifend nibh, sit amet vestibulum neque luctus sed. Duis sit amet lectus mattis, rhoncus dui venenatis, luctus libero. Donec erat turpis, iaculis sit amet pretium ornare, ultrices molestie lorem. Vestibulum a pellentesque libero, et lacinia mauris. Morbi elit nisl, pharetra ac ante in, faucibus consectetur elit. Donec ut eros nunc. Nullam quis felis id diam eleifend auctor sit amet vitae dui.",

@@ -116,3 +116,78 @@ p{
 .subtitle{
   font-style: italic;
 }
+
+
+/*Styling Dropdown*/
+/*https://www.w3schools.com/css/css_dropdowns.asp*/
+
+.dropbtn {
+  cursor: pointer;
+  padding: 10px 40px;
+  font-family:Nunito;
+  font-size:14px;
+  background-color:white;
+  border: 1px black solid;
+}
+
+.dropdownflex{
+  display:flex;
+  float:right;
+  margin:20px 8% 30px 0px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  padding:0;
+}
+
+#invisible{
+  height: 3px;
+  width: 50px;
+}
+
+
+.dropdown-content a {
+  font-family:Nunito;
+  font-size:14px;
+  text-decoration: none;
+  display: block;
+  width:170px;
+  background-color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: -0.5px;
+  padding-left:10px;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+  margin-right: -0.2px;
+  margin-top: -0.2px;
+  margin-bottom: -0.2px;
+  color:#0A0C6B;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color:#f0f0f0;
+  color:#0A0C6B;
+}
+
+
+.sectiontitle{
+    justify-content: space-between;
+}

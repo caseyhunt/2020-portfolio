@@ -61,17 +61,25 @@ function copyEmail(){
 }, "1000")
 }
 
-function filterProjects(type){
-  console.log(type);
+function filterProjects(filter, type){
+  console.log(filter);
   let projects = proj.projects;
-  for(i=0;i<proj.projects.length;i++){
-    if(projects[i].category.includes(type) == true){
-      console.log(projects[i].subdomain + " contains " + type);
+  if(filter == "clear"){
+    for(i=0;i<proj.projects.length;i++){
       document.getElementById(projects[i].subdomain).style.display = "flex";
+    }if(type == "dropdown"){
+      document.getElementsByClassName("dropbtn")[0].innerHTML = '<i class="fas fa-solid fa-filter fa-1x"></i> Sort by';
+    }
+  }else{
+  for(i=0;i<proj.projects.length;i++){
+    if(projects[i].category.includes(filter) == true){
+      console.log(projects[i].subdomain + " contains " + filter);
+      document.getElementById(projects[i].subdomain).style.display = "flex";
+        document.getElementsByClassName("dropbtn")[0].innerHTML = '<i class="fas fa-solid fa-filter fa-1x"></i> ' + document.getElementById(filter).innerHTML;
     }else{
-      // document.getElementById(projects[i].subdomain).style.display = "none";
+      document.getElementById(projects[i].subdomain).style.display = "none";
 
     }
-
   }
+}
 }

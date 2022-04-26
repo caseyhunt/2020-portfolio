@@ -25,7 +25,7 @@ function findSubdomain(projects){
     if(projects.projects[i].subdomain == subdomain){
       index=i;
       console.log(projects.projects[i]);
-      document.getElementById("title").innerHTML = projects.projects[i].name;
+
       populatePage(projects.projects[i]);
     }
   }
@@ -33,6 +33,17 @@ function findSubdomain(projects){
 
 function populatePage(project){
   console.log(project);
+
+  document.getElementById("title").innerHTML += '<h1>' + project.name + '</h1>';
+  document.getElementById("title").innerHTML += '<div id="collabs"></div>'
+  for(i=0;i<(project.collaborators.length);i++){
+    if(i==(project.collaborators.length-1)){
+      document.getElementById("collabs").innerHTML += '<h3 class="collabs">' + project.collaborators[i] + '</h3>';
+
+    }else{
+      document.getElementById("collabs").innerHTML += '<h3 class="collabs">' + project.collaborators[i] + ',&nbsp;</h3>';
+    }
+  }
 
   for(i=0;i<((project.images.length)+1);i++){
 
@@ -48,7 +59,10 @@ for(i=0;i<((project.images.length)+1);i++){
   document.getElementById('dotcont').innerHTML += '<span class="dot" onclick="currentSlide(' + (i+1) + ')"></span>';
 }
   document.getElementById("slideshow").innerHTML +=   '<div id="arrows"><a class="prev" onclick="plusSlides(-1)">&#10094;</a><a class="next" onclick="plusSlides(1)">&#10095;</a></div>';
-  document.querySelector("body").innerHTML += '<div id=""><p class="subtitle">' + project.description + '</p></div>';
+  document.querySelector("body").innerHTML += "<div id='description'></div>";
+  for(i=0;i<project.description.length;i++){
+    document.getElementById("description").innerHTML += '<p class="description">' + project.description[i] + '</p>';
+  }
   showSlides(slideIndex);
 }
 

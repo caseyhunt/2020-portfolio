@@ -7,19 +7,28 @@
        href="https://fonts.googleapis.com/css?family=Lora|Nunito">
 </head>
 <body>
+<div class="modalbg">
+  <!-- <div class="modal" id="copied">
+    <p>email copied to clipboard</p>
+  </div> -->
+</div>
 <div id="grid">
   <div class="row">
     <div id="">
     <img src="assets/headshot_flowers.jpg" id="headshot">
     </div>
-    <div>
-    <h1>Casey Hunt (she/her)</h1>
-    <p>Hi, I’m Casey! I am a second year PhD Student at the <a>THING Lab in the ATLAS Institute</a>. Here, I design and build networked <span id="tangible">tangible</span> and <span id="embodied">embodied</span> interaction systems. In my work, I explore how we can better create and connect using systems that
-de-center and supplement traditional 2D interaction. Because I am passionate about bringing these questions to the wider community, I expand access to these technologies with <span id="toolkits">toolkits</span> and <span id="participatory">participatory design practices</span>. </p>
+    <div class="description">
+    <h1>Casey Hunt</h1>
+    <p>Hi, I’m Casey (she/her)! I am a second year PhD Student at the <a>THING Lab in the ATLAS Institute</a>. I design and build <span id="networked" onclick="filterProjects('networked')">networked</span> <span id="tangible" onclick="filterProjects('tangible')">tangible</span> and <span id="embodied" onclick="filterProjects('embodied')">embodied</span> interaction systems. In my work, I explore how we can better create and connect using systems that
+de-center or supplement screens. In my work, I seek to engage the wider community about how to make effective 3-D interfaces, so I focus on <span id="participatory" onclick="filterProjects('participatory')">participatory design practices</span> and <span id="toolkits" onclick="filterProjects('toolkits')">toolkit design</span>. </p>
+
+    <p class="link" id="contact"><a  onclick="contactMe()">contact me →</a></p>
+        <p class="link" id="copied">email copied to clipboard</p>
+
     </div>
   </div>
 
-<div class="row"><h1>Projects</h1></div>
+<div class="row sectiontitle"><h1>Projects</h1></div>
 
 </div>
 

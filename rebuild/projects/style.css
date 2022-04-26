@@ -1,10 +1,37 @@
 body{
-  /* background-color: green; */
+  padding:70px 20vw 3vh 19vw;
+}
+
+h1{
+  font-family:Lora;
+  font-weight:300;
+    font-size: 50px;
+  display: inline-block;
+  transform: scaleX(.95);
+  transform-origin: 0 0;
+  margin: 0px 0px 5px -5px;
+    color: #261D02;
+}
+
+p{
+  font-family:Nunito;
+  font-size:16px;
+    color:#616161;
+}
+
+.collabs{
+  display:inline-block;
+  font-family:Nunito;
+  font-size:22px;
+  font-weight:200;
+    color:#616161;
+    margin-top:3px;
 }
 
 #slideshow{
-  width:50vw;
+  width:100%;
   height:calc(50vw*.66);
+  margin-bottom: 65px;
 }
 
 .slide{
@@ -42,11 +69,9 @@ body{
 #arrows{
   display:flex;
   justify-content: space-between;
-  /* this width value is a weird quirk. you must manually set it equal to width of slideshow container */
-  width:50vw;
-  position:absolute;
-  /* same with this top value is a weird quirk. you must manually set it equal to width of slideshow container */
-  top:calc(50vw*0.66*.6);
+  width:100%;
+  position:relative;
+  top:-55%;
 }
 
 /* Next & previous buttons */
@@ -78,4 +103,9 @@ body{
 
 #dotcont{
   text-align:center;
+  margin-top: 15px;
+}
+
+#description{
+  margin-top:10px;
 }
